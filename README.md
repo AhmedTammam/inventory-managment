@@ -24,6 +24,11 @@ for development you can set ``http://localhost:3000``, In production set it to y
 - ``Provider`` I used `google provider`you need to follow this [link](https://next-auth.js.org/providers/google) to configure your credentials . Also you can use any provider you want from [here](https://next-auth.js.org/providers)
 - More info: https://next-auth.js.org/configuration/options#secret
 
+#### Prisma
+- I used [Supabase](https://supabase.com/) to create `postgresql` database.
+- After create update `.env` and set `DATABASE_URL` variable to your database url.
+- Run `npx prisma db push` 
+
 
 
 
